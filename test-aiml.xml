@@ -4,6 +4,7 @@
     <category><pattern>ใครนั้น</pattern><template><bot name='name'/></template></category>
     <category><pattern>VB</pattern><template><random><li>vba</li><li>vbb</li><li>vbc</li></random></template></category>
     <category><pattern>ฟังเพลงยัง</pattern><template><random><li>Anata ga Ite Kureta Kara</li><li>Melon Juice</li></random></template></category>
-    <category><pattern>U</pattern><template>ว๊ายยยยย</template></category>
+    <category><pattern>U</pattern><template>random><li>Y</li><li>ว๊ายย</li><li>วรั้ยยยย</li></random>/template></category>
+    <category><pattern>ไอสัส</pattern><template>ไม่เพราะนะคะคำนี้</template></category>
 
 </aiml>
