@@ -1,7 +1,7 @@
 // Reply using AIML
 
 const express = require('express')
-const bodyParser = require('body-parser')
+const bodyParsers = require('body-parser')
 const request = require('request')
 const AIMLInterpreter = require('aimlinterpreter')
 
