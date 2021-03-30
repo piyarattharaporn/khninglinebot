@@ -3,7 +3,7 @@
 
     <category><pattern>ใครนั้น</pattern><template><bot name='name'/></template></category>
     <category><pattern>vb</pattern><template>vba vbb vbc vc++ </template></category> 
-    <category><pattern>ฟังเพลง</pattern><template><random><li>Anata ga Ite Kureta Kara</li><li>มะลิ</li><li>Melon Juice</li></random></template></category>
+    <category><pattern>ฟังเพลงยัง</pattern><template><random><li>Anata ga Ite Kureta Kara</li><li>Melon Juice</li></random></template></category>
     
 
 </aiml>
