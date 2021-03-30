@@ -2,8 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>ใครน่ะ</pattern>
-        <template> <bot name='name'/></template>
+        <pattern>ใครน่ะ</pattern><template> <bot name='name'/></template>
     </category>
     
     <category>
