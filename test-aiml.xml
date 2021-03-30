@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-    <category><pattern>ใครน่ั้น</pattern><template><bot name='name'/></template></category>
-    
-    <category><pattern>ไป ไป ไป ไป</pattern><template><random><li>ฟังเพลง Anata ga Ite Kureta Kara</li><li>ฟังเพลง มะลิ</li><li>ฟังเพลง Melon Juice</li></random></template></category>
+    <category><pattern>ใครนั้น</pattern><template><bot name='name'/></template></category>
+    <category><pattern>vb</pattern><template>vba vbb vbc vc++ vc#</template></category> 
+    <category><pattern>ฟังเพลง</pattern><template><random><li>Anata ga Ite Kureta Kara</li><li>มะลิ</li><li>Melon Juice</li></random></template></category>
     
 
 </aiml>
