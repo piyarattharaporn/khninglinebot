@@ -4,6 +4,6 @@
     <category><pattern>ใครน่ะ</pattern><template><bot name='name'/></template></category>
     <category><pattern>WHO ARE YOU</pattern><template><srai>WHAT IS YOUR NAME</srai></template></category>
     <category><pattern>GIVE ME A LETTER</pattern><template><random><li>A</li><li>B</li><li>C</li></random></template></category>
-    <category><pattern>*</pattern><template>เค้าไม่รู้</template></category>
+    <category><pattern>*</pattern><template>I found nothing.</template></category>
 
 </aiml>
