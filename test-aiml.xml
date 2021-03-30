@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-    <category><pattern>ใคร *</pattern><template><bot name='name'/></template></category>
+    <category><pattern>ใครน่ั้น</pattern><template><bot name='name'/></template></category>
     <category><pattern>WHO ARE YOU</pattern><template><srai>WHAT IS YOUR NAME</srai></template></category>
-    <category><pattern>ไป ไป ไป ไป</pattern><template><random><li>ฟังเพลงมะลิกัน</li><li>Anata ga Ite Kureta Kara</li><li>Melon Juice</li></random></template></category>
+    <category><pattern>ไป ไป ไป ไป</pattern><template><random><li>ฟังเพลง Anata ga Ite Kureta Kara</li><li>ฟังเพลง มะลิ</li><li>ฟังเพลง Melon Juice</li></random></template></category>
     
 
 </aiml>
