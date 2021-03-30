@@ -9,7 +9,7 @@
     <category><pattern>GIVE ME A LETTER</pattern><template><random><li>A</li><li>B</li><li>C</li></random></template></category>
 	<category><pattern>TEST SRAI IN RANDOM</pattern><template><random><li><srai>WHAT IS YOUR NAME</srai></li><li><srai>WHAT IS MY NAME</srai></li></random></template></category>
 	<category><pattern>TEST WILDCARD *</pattern><template>Thanks for testing!</template></category>
-  <category><pattern>TEST MULTIPLE * WILDCARDS *</pattern><template><star index="2" /> <star index="1" /></template></category>
+    <category><pattern>TEST MULTIPLE * WILDCARDS *</pattern><template><star index="2" /> <star index="1" /></template></category>
 	<category><pattern>TEST SR TAG *</pattern><template><sr/></template></category>
 	<category><pattern>TEST SR IN RANDOM *</pattern><template><random><li><sr/></li><li><srai>WHAT IS YOUR NAME</srai></li></random></template></category>
     <category><pattern>TEST THE STAR TAG *</pattern><template><star/></template></category>
