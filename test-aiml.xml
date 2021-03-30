@@ -3,7 +3,7 @@
 
     <category><pattern>ใครน่ะ</pattern><template><bot name='name'/></template></category>
     <category><pattern>WHO ARE YOU</pattern><template><srai>WHAT IS YOUR NAME</srai></template></category>
-    <category><pattern>GIVE ME A LETTER</pattern><template><random><li>A</li><li>B</li><li>C</li></random></template></category>
-    <category><pattern>*</pattern><template>I found nothing.</template></category>
+    <category><pattern>ไป ไป ไป ไป</pattern><template><random><li>ฟังเพลงมะลิกัน</li><li>Anata ga Ite Kureta Kara</li><li>Melon Juice</li></random></template></category>
+    
 
 </aiml>
