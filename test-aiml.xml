@@ -2,6 +2,7 @@
 <aiml>
 
     <category><pattern>ใครน่ะ</pattern><template> <bot name='name'/></template></category>
+    <category><pattern>ไป ไป ไป ไป</pattern><template>ไปฟังมะลิกันเยอะๆนะคะ</template></category>
     <category><pattern>*</pattern><template>I found nothing.</template></category>
 
 </aiml>
