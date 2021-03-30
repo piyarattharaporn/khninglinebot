@@ -1,24 +1,36 @@
-// Echo reply
+// Reply using AIML, parsing data with AIMLParser
 
 const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
+const AIMLParser = require('aimlparser')
+
 const app = express()
 const port = process.env.PORT || 4000
+const aimlParser = new AIMLParser({ name:'HelloBot' })
+
+aimlParser.load(['./test-aiml.xml'])
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
+
 app.post('/webhook', (req, res) => {
     let reply_token = req.body.events[0].replyToken
     let msg = req.body.events[0].message.text
-    reply(reply_token, msg)
+    aimlParser.getResult(msg, (answer, wildCardArray, input) => {
+        reply(reply_token, answer)
+    })
     res.sendStatus(200)
 })
+
 app.listen(port)
+
 function reply(reply_token, msg) {
     let headers = {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer {m3Ke76tZcHwlkq1Nk0m8CHYRlv0RTMRuCul/HLLpSNpznORYlNycYwZlWx0fdaE6sotmTx8KXLJtsOOBZ3L47kOGF4TWQcFGKk3ACKHzpZ3Kq/7kAyOTvNt8dFy3xFpXjgsHkUNXu9YvrJBHeySAjQdB04t89/1O/w1cDnyilFU=}'
     }
+
     let body = JSON.stringify({
         replyToken: reply_token,
         messages: [{
@@ -26,6 +38,7 @@ function reply(reply_token, msg) {
             text: msg
         }]
     })
+
     request.post({
         url: 'https://api.line.me/v2/bot/message/reply',
         headers: headers,
