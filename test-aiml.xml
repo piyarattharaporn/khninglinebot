@@ -26,9 +26,9 @@
         <pattern>PIYARAT</pattern>
         <template>พี่ปูนคะ ทีมงานเรียกค่ะ </template>
     </category>
-    <category><pattern>PIYARAT*</pattern><template><srai>PIYARAT</srai></template></category>
-    <category><pattern>*PIYARAT</pattern><template><srai>PIYARAT</srai></template></category> 
-    <category><pattern>*PIYARAT*</pattern><template><srai>PIYARAT</srai></template></category>
+    <category><pattern>*@PIYARAT*</pattern><template><srai>PIYARAT</srai></template></category>
+    <category><pattern>*@PIYARAT</pattern><template><srai>PIYARAT</srai></template></category> 
+    <category><pattern>*@PIYARAT*</pattern><template><srai>PIYARAT</srai></template></category>
 
 
 
