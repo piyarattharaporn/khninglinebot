@@ -57,7 +57,7 @@
       <template>Yes <set name = "topic">movies</set></template>  
     </category>
    
-    <topic name = "movies">
+    <think name = "movies">
       <category>
          <pattern> * </pattern>
          <template>Watching good movie refreshes our minds.</template>
@@ -68,7 +68,7 @@
          <template>I like comedy movies too.</template>
       </category>
       
-   </topic>
+   </think>
 
 
       
