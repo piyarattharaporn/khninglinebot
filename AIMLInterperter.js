@@ -463,7 +463,7 @@ var convertWildcardToRegex = function(text){
     //replace space before wildcard
     var modifiedText = text.replace(' *', '*');
     //replace wildcard (*) by regex
-    modifiedText = modifiedText.replace(/\*/g, '[A-Z|0-9|\\s]*[A-Z|0-9|\*|-]*[A-Z|0-9]*[!|.|?|\\s]*');
+    modifiedText = modifiedText.replace(/\*/g, '[A-Z|0-9|\\s]*[A-Z|0-9|\*|-]*[ก-๙]*[A-Z|0-9]*[!|.|?|\\s]*');
 
     if(lastCharacter != "*"){
 //        text = text + " ";
