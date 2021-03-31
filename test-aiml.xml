@@ -6,6 +6,11 @@
         <template><bot name='name'/></template>
     </category>
 
+     <category>
+        <pattern>ดีจ้า</pattern>
+        <template>สวัสดีเจ้า</template>
+    </category>
+
     <category>
         <pattern>VB</pattern>
             <template>
@@ -29,20 +34,7 @@
         </category>
 
 
-    <category>
-      <pattern>I am *</pattern>
-        <template>
-            Hello <set name = "username"> <star/>! </set>
-        </template>  
-   </category>  
    
-   <category>
-      <pattern>Good Night</pattern>
-      <template>
-         Hi <get name = "username"/> Thanks for the conversation!
-      </template>  
-   </category>  
-
 
     <category><pattern>_ ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>
