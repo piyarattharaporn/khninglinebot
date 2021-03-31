@@ -53,7 +53,7 @@
     <category><pattern>_ ฟังเพลง *</pattern><template><srai>ฟังเพลง</srai></template></category>
 
     <category>
-      <pattern>LET DISCUSS MOVIE</pattern>
+      <pattern>MOVIE</pattern>
       <template>Yes <set name = "topic">movie</set></template>  
    </category>
    
