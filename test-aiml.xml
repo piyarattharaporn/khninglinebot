@@ -34,6 +34,18 @@
         </category>
     
     <category>
+        <pattern>อิ</pattern>
+            <template>
+                <random>
+                    <li>ไรเหยอออ</li>
+                    <li>เย อี เย อิ เย เหมือนว่าฉันนั้นเคว้งคว้างลอยไปกับเสียงเพลง ยังคงบรรเลง ไม่มีวันเลือนลาง</li>
+                    <li>vbc</li>
+                </random>
+            </template>
+        </category>
+
+
+    <category>
         <pattern>ฟังเพลง</pattern>
             <template>
                 <random>
