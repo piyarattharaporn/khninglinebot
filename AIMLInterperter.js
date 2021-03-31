@@ -436,7 +436,7 @@ var checkIfMessageMatchesPattern = function(userInput, patternText){
 
     if(matchedString){
         //the matched pattern must be at least as long as the user input or must contain the regex
-        if(matchedString[0].length >= userInput.length || regexPattern.indexOf('[A-Z|0-9|\\s]*[A-Z|0-9|-]*[A-Z|0-9]*[!|.|?|\\s]*') > -1){
+        if(matchedString[0].length >= userInput.length || regexPattern.indexOf('[A-Z|0-9|\\s]*[A-Z|0-9|-]*[ก-๙]*[A-Z|0-9]*[!|.|?|\\s]*') > -1){
             //if patternText contained a wild card, get the user input that were put into this wild card
             //use original patternText (* is not replaced by regex!)
             var information = getWildCardValue(userInput, patternText);
