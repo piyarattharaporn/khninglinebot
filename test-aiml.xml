@@ -9,5 +9,6 @@
     <category><pattern>ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>ไอสัส</pattern><template>หยาบคายนะคะ</template></category>
+    <category><pattern>ไอปูน</pattern><template>พี่ปูนๆๆมาได้แล้วๆๆ</template></category>
 
 </aiml>
