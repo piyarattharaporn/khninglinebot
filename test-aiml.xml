@@ -75,9 +75,9 @@
         <pattern>ฟังเพลง</pattern>
             <template>
                 <random>
-                    <li>Anata ga Ite Kureta Kara</li>
-                    <li>Chain of love</li>
-                    <li>มะลิ</li>
+                    <li>ฟังเพลง Anata ga Ite Kureta Kara มั้ยคะ</li>
+                    <li>ฟังเพลง Chain of love มั้ยคะ</li>
+                    <li>ฟังเพลง มะลิ มั้ยคะ</li>
                 </random>
             </template>
         </category>
