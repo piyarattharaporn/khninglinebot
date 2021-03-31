@@ -74,6 +74,20 @@
     <category><pattern>*สัส</pattern><template><srai>สัส</srai></template></category> 
     <category><pattern>*สัส*</pattern><template><srai>สัส</srai></template></category>
     
+    <category>
+        <pattern>ไอควายยย ยย ย ยยยย</pattern>
+            <template>
+                <random>
+                    <li>หยาบคายอ่ะ</li>
+                    <li>ไม่น่ารักเลยนะ</li>
+                    <li>พูดแบบนี้เค้าไม่รักแล้วนะ</li>
+                </random>
+            </template>
+        </category>
+    <category><pattern>ไอควายยย ยย ย ยยยย*</pattern><template><srai>ไอควายยย ยย ย ยยยย</srai></template></category>
+    <category><pattern>*ไอควายยย ยย ย ยยยย</pattern><template><srai>ไอควายยย ยย ย ยยยย</srai></template></category> 
+    <category><pattern>*ไอควายยย ยย ย ยยยย*</pattern><template><srai>ไอควายยย ยย ย ยยยย</srai></template></category>
+
     
     <category>
         <pattern>อัต</pattern>
