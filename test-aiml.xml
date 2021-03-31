@@ -108,6 +108,20 @@
     <category><pattern>*อัต</pattern><template><srai>อัต</srai></template></category> 
     <category><pattern>*อัต*</pattern><template><srai>อัต</srai></template></category>
 
+    <category>
+      <pattern>I am *</pattern>
+      <template>
+         Hello <set name = "username"> <star/>! </set>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>Good Night</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>  
+
    
       
 </aiml>
