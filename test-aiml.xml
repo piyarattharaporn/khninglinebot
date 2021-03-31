@@ -11,12 +11,16 @@
         <template>สวัสดีเจ้า</template>
     </category>
 
-    <category>
-      <pattern>ILIKE *</pattern>
-      <template>
-         I too like <star/>.
-      </template>
-   </category>
+   <category>
+        <pattern>ไป ไป ไป ไป</pattern>
+            <template>
+                <random>
+                    <li>ไปไหนกันเหรอออออ รอเค้าด้วยนะ</li>
+                    <li>ไปอีกแระ</li>
+                    <li>เค้าไม่ไปได้วยแล้วนะ</li>
+                </random>
+            </template>
+        </category> 
    
 
     <category>
