@@ -55,38 +55,24 @@
                 </random>
             </template>
         </category>
-
-   
-
     <category><pattern>ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>*ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category> 
     <category><pattern>*ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
 
-   <category>
-        <pattern>SCHOOL</pattern>
-        <template>School is an important institution in a child's life.</template>
-    </category>
-
     <category>
-        <pattern>_ SCHOOL</pattern>
+        <pattern>อัต</pattern>
             <template>
-                <srai>SCHOOL</srai>
+                <random>
+                    <li>พี่อัตแมว 9 ชีวิต</li>
+                    <li>คุณอัต unique</li>
+                    <li>คุณอัตแฟร์ 50</li>
+                </random>
             </template>
-    </category>
+        </category>
+    <category><pattern>อัต*</pattern><template><srai>ฟังเพลง</srai></template></category>
+    <category><pattern>*อัต</pattern><template><srai>ฟังเพลง</srai></template></category> 
+    <category><pattern>*อัต*</pattern><template><srai>ฟังเพลง</srai></template></category>
 
-    <category>
-       <pattern>SCHOOL *</pattern>
-           <template>
-              <srai>SCHOOL</srai>
-           </template>
-    </category>
-
-    <category>
-        <pattern>_ SCHOOL *</pattern>
-           <template>
-              <srai>SCHOOL</srai>
-       </template>
-    </category>    
-
+   
       
 </aiml>
