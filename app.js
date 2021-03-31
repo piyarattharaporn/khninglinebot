@@ -12,6 +12,34 @@ const aimlInterpreter = new AIMLInterpreter({ name:'สวัสดีเจ้�
 
 aimlInterpreter.loadAIMLFilesIntoArray(['./test-aiml.xml'])
 
+
+AIMLInterpreter = require('./AIMLInterpreter');
+
+var aimlInterpreter = new AIMLInterpreter({name:'WireInterpreter', age:'42'});
+aimlInterpreter.loadAIMLFilesIntoArray(['./test.aiml.xml']);
+
+var callback = function(answer, wildCardArray, input){
+    console.log(answer + ' | ' + wildCardArray + ' | ' + input);
+};
+
+var caseCallback = function(answer, wildCardArray, input){
+  if (answer == this) {
+    console.log(answer + ' | ' + wildCardArray + ' | ' + input);
+  } else {
+    console.log('ERROR:', answer);
+    console.log('   Expected:', this.toString());
+  }
+};
+
+
+// Test bot attributes
+aimlInterpreter.findAnswerInLoadedAIMLFiles('What is your name?', callback);
+
+// Test setting and getting variable values
+aimlInterpreter.findAnswerInLoadedAIMLFiles('My name is Ben.', callback);
+aimlInterpreter.findAnswerInLoadedAIMLFiles('What is my name?', callback);
+
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
