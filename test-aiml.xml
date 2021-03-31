@@ -48,6 +48,10 @@
                 </random>
             </template>
         </category>
+        <category><pattern>อิ*</pattern><template><srai>อิ</srai></template></category>
+        <category><pattern>*อิ</pattern><template><srai>อิ</srai></template></category> 
+        <category><pattern>*อิ*</pattern><template><srai>อิ</srai></template></category>
+
 
 
     <category>
