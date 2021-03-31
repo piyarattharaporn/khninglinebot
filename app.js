@@ -4,6 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const AIMLInterpreter = require('./AIMLInterperter')
+const AIMLParser = require('aimlparser')
 
 
 const app = express()
@@ -11,6 +12,7 @@ const port = process.env.PORT || 4000
 const aimlInterpreter = new AIMLInterpreter({ name:'คนิ้งเองเจ้า'})
 
 aimlInterpreter.loadAIMLFilesIntoArray(['./test-aiml.xml'])
+aimlParser.load(['./test-aiml.xml'])
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
