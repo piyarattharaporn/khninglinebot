@@ -116,7 +116,7 @@
    </category>  
    
    <category>
-      <pattern>Good Night</pattern>
+      <pattern>GOODNIGHT</pattern>
       <template>
          Hi <get name = "username"/> Thanks for the conversation!
       </template>  
