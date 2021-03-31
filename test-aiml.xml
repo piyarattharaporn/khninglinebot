@@ -11,6 +11,11 @@
         <template>สวัสดีเจ้า </template>
     </category>
 
+    <category>
+        <pattern>ไปครับ</pattern>
+        <template>ไปไหนเหรอคะ ไปด้วยจิ </template>
+    </category>
+
    <category>
         <pattern>ไป ไป ไป ไป</pattern>
             <template>
