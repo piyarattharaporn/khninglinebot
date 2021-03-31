@@ -8,5 +8,6 @@
     <category><pattern>_ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
+    <category><pattern>ไอสัส</pattern><template>หยาบคายนะคะ</template></category>
 
 </aiml>
