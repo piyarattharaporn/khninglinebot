@@ -113,9 +113,7 @@
       <template>
          Hello <set name = "username"> <star/>! </set>
       </template>  
-   </category>  
    
-   <category>
       <pattern>GOODNIGHT</pattern>
       <template>
          Hi <get name = "username"/> Thanks for the conversation!
