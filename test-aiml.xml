@@ -21,6 +21,14 @@
         <template>ป่ะ ไปไหนดีคะ </template>
     </category>
 
+
+     <category>
+        <pattern>@piyarat*</pattern>
+        <template>พี่ปูนๆ ทีมงานเรียกค่ะ </template>
+    </category>
+
+
+
    <category>
         <pattern>ไป ไป ไป ไป</pattern>
             <template>
