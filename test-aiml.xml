@@ -109,7 +109,7 @@
     <category><pattern>*อัต*</pattern><template><srai>อัต</srai></template></category>
 
     <category>
-      <pattern>I am *</pattern>
+      <pattern>I AM *</pattern>
       <template>
          Hello <set name = "username"> <star/>! </set>
       </template>  
