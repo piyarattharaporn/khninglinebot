@@ -52,18 +52,19 @@
     <category><pattern>ฟังเพลง *</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ ฟังเพลง *</pattern><template><srai>ฟังเพลง</srai></template></category>
 
-    <category>
-      <pattern>LET DISCUSS MOVIES</pattern>
-      <template>Yes <set name = "movies">movies</set></template>  
-    </category>
+     <category>
+      <pattern>My name is *</pattern>
+      <template>
+         Hello!<think><set name = "username"> <star/></set></think>
+      </template>  
+   </category>  
    
-    <think name = "movies">
-      <category>
-         <pattern> * </pattern>
-         <template>Watching good movie refreshes our minds.</template>
-      </category>
-      
-   </think>
+   <category>
+      <pattern>Byeee</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>  
 
 
       
