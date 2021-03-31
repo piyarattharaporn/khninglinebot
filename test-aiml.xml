@@ -16,6 +16,11 @@
         <template>ไปไหนเหรอคะ ไปด้วยจิ </template>
     </category>
 
+     <category>
+        <pattern>ไป</pattern>
+        <template>ป่ะ ไปไหนดีคะ </template>
+    </category>
+
    <category>
         <pattern>ไป ไป ไป ไป</pattern>
             <template>
