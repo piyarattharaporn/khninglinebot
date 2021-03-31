@@ -4,14 +4,13 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const AIMLInterpreter = require('./AIMLInterperter')
-const AIMLParser = require('aimlparser')
 
 
 const app = express()
 const port = process.env.PORT || 4000
-const aimlParser = new AIMLParser({ name:'คนิ้งเองเจ้า'})
+const aimlInterpreter = new AIMLInterpreter({ name:'สวัสดีเจ้า คนิ้งเจ้า'})
 
-aimlParser.load(['./test-aiml.xml'])
+aimlInterpreter.loadAIMLFilesIntoArray(['./test-aiml.xml'])
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -19,7 +18,7 @@ app.use(bodyParser.json())
 app.post('/webhook', (req, res) => {
     let reply_token = req.body.events[0].replyToken
     let msg = req.body.events[0].message.text
-    aimlParser.getResult(msg, (answer, wildCardArray, input) => {
+    aimlInterpreter.findAnswerInLoadedAIMLFiles(msg, (answer, wildCardArray, input) => {
         reply(reply_token, answer)
         console.log(answer + ' | ' + wildCardArray + ' | ' +input);
     })
