@@ -3,7 +3,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
-const AIMLInterpreter = require('./AIMLInterperter')
+const AIMLInterpreter = require('aimlinterperter')
 
 
 const app = express()
