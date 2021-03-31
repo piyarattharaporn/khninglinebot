@@ -54,18 +54,13 @@
 
     <category>
       <pattern>LET DISCUSS MOVIES</pattern>
-      <template>Yes <set name = "topic">movies</set></template>  
+      <template>Yes <set name = "movies">movies</set></template>  
     </category>
    
     <think name = "movies">
       <category>
          <pattern> * </pattern>
          <template>Watching good movie refreshes our minds.</template>
-      </category>
-      
-      <category>
-         <pattern> I LIKE WATCHING COMEDY! </pattern>
-         <template>I like comedy movies too.</template>
       </category>
       
    </think>
