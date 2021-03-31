@@ -44,7 +44,22 @@
             </template>
         </category>
 
-
+    <category>
+      <pattern> WHO IS PIYARAT THARAPORN </pattern>
+      <template>Piyarat Tharaporn was a German physicist.</template>
+   </category>
+   
+   <category>
+      <pattern> WHO IS Isaac NEWTON </pattern>
+      <template>Isaac Newton was a English physicist and mathematician.</template>
+   </category>
+   
+   <category>
+      <pattern>DO YOU KNOW WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>
    
 
     <category><pattern>_ ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>
