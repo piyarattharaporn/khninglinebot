@@ -21,6 +21,21 @@
                 </random>
             </template>
         </category> 
+
+
+    <category>
+      <pattern> HOW ARE YOU FEELING TODAY </pattern>
+      
+      <template>
+         <think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            I am happy!
+         </condition>
+         
+         <condition name = "state" value = "sad">
+            I am sad!
+         </condition>
+      </template>
    
 
     <category>
