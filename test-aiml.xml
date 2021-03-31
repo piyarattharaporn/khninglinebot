@@ -3,6 +3,7 @@
 
     <category><pattern>ใครนั้น</pattern><template><bot name='name'/></template></category>
     <category><pattern>VB</pattern><template><random><li>vba</li><li>vbb</li><li>vbc</li></random></template></category>
+    
     <category><pattern>ฟังเพลง</pattern><template><random><li>Anata ga Ite Kureta Kara</li><li>Melon Juice</li></random></template></category>
     <category><pattern>_ ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ ฟังเพลง</pattern><template><srai>ฟังเพลง</srai></template></category>

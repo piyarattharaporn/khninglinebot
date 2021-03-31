@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const request = require('request')
 const AIMLInterpreter = require('aimlinterpreter')
 
+
 const app = express()
 const port = process.env.PORT || 4000
 const aimlInterpreter = new AIMLInterpreter({ name:'สวัสดีเจ้า คนิ้งเจ้า'})
@@ -19,6 +20,7 @@ app.post('/webhook', (req, res) => {
     let msg = req.body.events[0].message.text
     aimlInterpreter.findAnswerInLoadedAIMLFiles(msg, (answer, wildCardArray, input) => {
         reply(reply_token, answer)
+        console.log(answer + ' | ' + wildCardArray + ' | ' +input);
     })
     res.sendStatus(200)
 })
