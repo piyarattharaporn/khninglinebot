@@ -23,9 +23,13 @@
 
 
      <category>
-        <pattern>@piyarat*</pattern>
+        <pattern>piyarat</pattern>
         <template>พี่ปูนๆ ทีมงานเรียกค่ะ </template>
     </category>
+    <category><pattern>piyarat*</pattern><template><srai>piyarat</srai></template></category>
+    <category><pattern>*piyarat</pattern><template><srai>piyarat</srai></template></category> 
+    <category><pattern>*piyarat*</pattern><template><srai>piyarat</srai></template></category>
+
 
 
 
