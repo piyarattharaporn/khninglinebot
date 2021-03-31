@@ -34,7 +34,7 @@
 
 
    <category>
-        <pattern>ไป ไป ไป ไป</pattern>
+        <pattern>ไป ไป ไป</pattern>
             <template>
                 <random>
                     <li>ไปไหนกันเหรอออออ รอเค้าด้วยนะ</li>
