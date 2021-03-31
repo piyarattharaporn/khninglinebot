@@ -63,7 +63,31 @@
     <category><pattern>ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
     <category><pattern>_ฟังเพลง*</pattern><template><srai>ฟังเพลง</srai></template></category>
 
+   <category>
+        <pattern>SCHOOL</pattern>
+        <template>School is an important institution in a child's life.</template>
+    </category>
 
+    <category>
+        <pattern>_ SCHOOL</pattern>
+            <template>
+                <srai>SCHOOL</srai>
+            </template>
+    </category>
+
+    <category>
+       <pattern>SCHOOL *</pattern>
+           <template>
+              <srai>SCHOOL</srai>
+           </template>
+    </category>
+
+    <category>
+        <pattern>_ SCHOOL *</pattern>
+           <template>
+              <srai>SCHOOL</srai>
+       </template>
+    </category>    
 
       
 </aiml>
