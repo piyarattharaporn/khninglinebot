@@ -8,7 +8,7 @@ const AIMLInterpreter = require('./AIMLInterperter')
 
 const app = express()
 const port = process.env.PORT || 4000
-const aimlInterpreter = new AIMLInterpreter({ name:'สวัสดีเจ้า คนิ้งเจ้า'})
+const aimlInterpreter = new AIMLInterpreter({ name:'คนิ้งเองเจ้า'})
 
 aimlInterpreter.loadAIMLFilesIntoArray(['./test-aiml.xml'])
 
